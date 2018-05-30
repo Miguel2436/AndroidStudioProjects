@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    Typeface AardvarkCafe = Typeface.createFromAsset(getAssets(), “AardvarkCafe.ttf”);
+    Typeface Abstrecfonttfb = Typeface.createFromAsset(getAssets(), “Abstrecfonttfb.ttf”);
+    Typeface AYearWithoutRain = Typeface.createFromAsset(getAssets(), “AYearWithoutRain.ttf”);
+</resources>

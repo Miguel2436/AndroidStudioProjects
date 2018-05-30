@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.mi_cuenta">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp"
+        android:orientation="vertical"
+        android:background="@color/colorSecond"
+        >
+
+        <LinearLayout
+            android:layout_width="384dp"
+            android:layout_height="80dp"
+            android:background="@color/colorBasic"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mi cuenta"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textSize="50dp"
+                android:fontFamily="cursive"
+                android:textColor="@color/colorSecond"
+                />
+
+            <Button
+                android:id="@+id/btnback"
+                android:layout_marginTop="-65dp"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:drawableTop="@drawable/ic_arrow_back_black_24dp"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorItem"
+            />
+
+        <EditText
+            android:id="@+id/edtcambionombre"
+            android:background="@drawable/edittextstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-28dp"
+            android:layout_marginLeft="105dp"
+            android:hint="nombre"
+            android:textSize="20dp"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnguardarnombre"
+            android:layout_marginTop="-38dp"
+            android:layout_marginLeft="240dp"
+            android:layout_width="28dp"
+            android:layout_height="40dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:drawableTop="@drawable/modificar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellidos"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorItem"
+            />
+        <EditText
+            android:id="@+id/edtcambioap"
+            android:background="@drawable/edittextstyle"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-28dp"
+            android:layout_marginLeft="-21dp"
+
+            android:textSize="20dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtcambioam"
+            android:background="@drawable/edittextstyle"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-28dp"
+            android:layout_marginLeft="75dp"
+
+            android:textSize="20dp"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnguardarapellido"
+            android:layout_marginTop="-38dp"
+            android:layout_marginLeft="320dp"
+            android:layout_width="28dp"
+            android:layout_height="40dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:drawableTop="@drawable/modificar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorItem"
+            />
+
+        <EditText
+            android:id="@+id/edtcambiousername"
+            android:background="@drawable/edittextstyle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-28dp"
+            android:layout_marginLeft="38dp"
+
+            android:textSize="20dp"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorItem"
+            />
+
+        <TextView
+            android:id="@+id/correocuenta"
+            android:background="@drawable/edittextstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-28dp"
+            android:layout_marginLeft="10dp"
+
+            android:textSize="20dp"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contraseña"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorItem"
+            />
+
+        <EditText
+            android:id="@+id/edtcambiocontrasena"
+            android:background="@drawable/edittextstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-28dp"
+            android:layout_marginLeft="-5dp"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnguardarcontrasena"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="-38dp"
+            android:layout_width="28dp"
+            android:layout_height="40dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:drawableTop="@drawable/modificar" />
+
+        <Button
+            android:id="@+id/btnguadarcambioscuenta"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Guardar Cambios"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/round_background"
+            android:textColor="@color/colorSecond"
+            android:backgroundTint="@color/colorItem"
+            />
+    </LinearLayout>
+
+</FrameLayout>

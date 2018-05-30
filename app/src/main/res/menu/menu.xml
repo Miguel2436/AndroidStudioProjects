@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/refresh"
+        android:title="refresh"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_autorenew_black_24dp"
+        app:showAsAction="always"
+        ></item>
+
+    <item
+        android:id="@+id/agenda"
+        android:title="@string/usuario_agenda"
+        android:icon="@drawable/agenda"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/visita"
+        android:title="@string/usuario_visitas"
+        android:icon="@drawable/eventos"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/interes"
+        android:title="@string/usuario_interes"
+        android:icon="@drawable/interesa"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/cuenta"
+        android:title="@string/usuario_cuenta"
+        android:icon="@drawable/cuenta"
+        app:showAsAction="never"></item>
+
+</menu>
+
+

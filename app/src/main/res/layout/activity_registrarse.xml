@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:background="@color/colorItem"
+    tools:context=".registrarse"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registro"
+            android:fontFamily="cursive"
+            android:layout_gravity="center"
+            android:textSize="50dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorItem"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Establecimiento"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:textSize="17dp"
+            android:textColor="@color/colorItem"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuario"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="-23dp"
+            android:textSize="17dp"
+            android:textColor="@color/colorItem"
+            />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Disfruta de un amplio catalogo de opciones para elegir. ¡Aprovecha tu tiempo libre al máximo."
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="#8c8c8c"
+            />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="¿Quieres anunciar tu negocio?
+Registrate aquí para publicar todo lo referente a tu negocio."
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-84dp"
+            android:textSize="14dp"
+            android:textColor="#8c8c8c"
+            />
+
+        <Button
+            android:id="@+id/btnestablecimiento"
+            android:layout_marginTop="20dp"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_background"
+            android:text="Registrarme"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:backgroundTint="@color/colorBasic"
+            android:layout_marginLeft="22dp"
+            />
+        <Button
+            android:id="@+id/btnusuario"
+            android:layout_marginTop="-47dp"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_background"
+            android:text="Registrarme"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:backgroundTint="@color/colorBasic"
+            android:layout_marginLeft="195dp"
+            />
+    </LinearLayout>
+</RelativeLayout>
